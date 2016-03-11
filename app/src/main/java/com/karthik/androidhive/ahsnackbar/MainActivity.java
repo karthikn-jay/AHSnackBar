@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View coordinatorLayout) {
-                Snackbar.make(coordinatorLayout, "Message is deleted", Snackbar.LENGTH_LONG)
+                Snackbar.make(coordinatorLayout, "Message is deleted!", Snackbar.LENGTH_LONG)
                         .setAction("UNDO", new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {
